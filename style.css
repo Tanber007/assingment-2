@@ -34,6 +34,9 @@
     height: 715px;
     background-color: rgba(0, 0, 0, 0.919);
 }
+.menu{
+    display: none;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -451,6 +454,12 @@ a:hover {
     .nav-links{
         display: none;
     }
+    .menu{
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin-top: 60px;
+    }
     .head-bg{
         width: 1280px;
         height: 2305px;
@@ -814,4 +823,8 @@ a:hover {
     .runing-img2{
         display: none;
     }
+
 }
+/* .hide{
+    display: none;
+} */
