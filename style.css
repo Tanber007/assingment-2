@@ -794,6 +794,32 @@ table{
     }
 
 
+    /* BMI-section */
+    .bmi-section{
+        width: 1280px;
+        height: 500px;
+        padding-bottom: 20px;
+    }
+    .bmi-content{
+        width: 800px;
+        height: 450px;
+        margin-left: -400px;
+        letter-spacing: 0.3px;
+        line-height: 72px;
+    }
+    .bmi-count{
+        flex-direction: column;
+        width: 1280px;
+        height: 1500px;
+    }
+    .bmi-box-1{
+        width: 1280px;
+        height: 600px;
+        border: 1px solid white;
+    }
+
+
+
     /* team-section */
     .team-bg{
         width: 1280px;
@@ -807,6 +833,7 @@ table{
     .team-title{
         font-size: 82px;
         font-weight: 900;
+        margin-bottom: 70px;
     }
     .team-description{
         width: 900px;
@@ -959,4 +986,4 @@ table{
 }
 .hide{
     display: none;
-} 
+}
