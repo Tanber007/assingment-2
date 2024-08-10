@@ -30,7 +30,7 @@
 
 /* header style */
 .head-bg{
-    width: 1200px;
+    width: 1263px;
     height: 715px;
     background-color: rgba(0, 0, 0, 0.919);
 }
@@ -80,49 +80,53 @@ a:hover {
     text-align: left;
 }
             /* head-banner */
- .banner-center{
- display: flex;
+.banner{
+    width: 1263px;
+}
+.banner-center{
+   display: flex;
    justify-content: center;
 }
 .head-title{
     color: white;
-     font-size: 4.2rem;
+    font-size: 4.2rem;
     font-weight: 800;
     text-align: left;
     margin-left: 80px;
-    width: 460px;
+    width: 450px;
     height: 300px;
+    line-height: 90px;
 }
 .head-description{
-    width: 480px;
+    width: 400px;
     height: 46px;
-    margin: 28px 0;
+    margin: 32px 0;
+    margin-top: -5px;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
     margin-left: 80px;
 }
-                .btn-primary{
-                    width: 224px;
-                    height: 52px;
-                    padding: 16px 40px;
-                    background-color: rgb(230, 83, 60);
-                    border-radius: 42px;
-                    border: none;
-                    color: white;
-                    font-size: 18px;
-                    font-weight: 600;
-                    text-align: center;
-                    cursor: pointer;
-                    margin-left: 80px;
-                }
+.btn-primary{
+    width: 224px;
+    height: 52px;
+    padding: 16px 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 80px;
+}
                 .btn-secondary{
                     width: 224px;
                     height: 54px;
                     padding: 16px 40px;
                     margin: 0 14px;
                     color: white;
-                    border: 1px solid white;
                     border-radius: 42px;
                     background-color: black;
                     font-size: 18px;
@@ -205,7 +209,6 @@ a:hover {
     padding-top: 60px;
     width: 1260px;
     height: 500px;
-    
     background-color: rgba(0, 0, 0, 0.919);
 }
 .habit-center{
@@ -213,9 +216,10 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
-.habits-content{
+.habit-center{
     width: 980px;
     height: 200px;
+    margin: 0 auto;
     text-align: center; 
 }
 .habit-title{
@@ -238,8 +242,9 @@ a:hover {
 .habit-card{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-   justify-items: center;
-   align-items: center;
+    justify-items: center;
+    align-items: center;
+    margin-right: 40px;
 }
 .card{
     border-radius: 50%;
@@ -256,7 +261,7 @@ a:hover {
 }
 /* runing-section */
 .run-section{
-    width: 1260px;
+    width: 1263px;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.919);
     display: flex;
@@ -273,7 +278,7 @@ a:hover {
     background-color: rgba(48, 48, 48, 0.54);
     color: rgba(239, 237, 232, 0.6);
     border-radius: 16px;
-    margin-top: -100px;
+    margin-top: 100px;
 }
 
 .run-title{
@@ -315,7 +320,7 @@ a:hover {
 /* Team */
 .team-bg{
     background-color: rgba(0, 0, 0, 0.919);
-    width: 1260px;
+    width: 1263px;
     height: 1000px;
     margin: 0 auto;
 }
@@ -384,7 +389,7 @@ a:hover {
 
   /* FOOTER */
   .foot-bg{
-    width: 1260px;
+    width: 1263px;
     height: 500px;
     background-color: rgb(41, 40, 40);
   }
@@ -791,7 +796,7 @@ a:hover {
 /* Large Device */
 @media screen and (min-width: 992px) {
     .head-bg{
-        width: 1280px;
+        width: 1263px;
         height: 715px;
         background-color: rgba(0, 0, 0, 0.919);
     }
@@ -807,16 +812,13 @@ a:hover {
     .habit-section{
         text-align: center;
         margin-top: 60px;
-        width: auto;
+        width: 1263px;
         height: 500px;
         margin: 0 auto;
         background-color: rgba(0, 0, 0, 0.919);
-        width: 1280px;
-        height: 600px;
-        text-align: center; 
     }
     .habits-content{
-        width: 1280px;
+        width: 1263px;
         height: 200px;
         text-align: center; 
     }
@@ -825,6 +827,6 @@ a:hover {
     }
 
 }
-/* .hide{
+.hide{
     display: none;
-} */
+} 
