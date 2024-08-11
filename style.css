@@ -415,7 +415,6 @@ table{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 20px;
-
 }
 .grid-box{
     width: 170px;
@@ -806,16 +805,98 @@ table{
         margin-left: -400px;
         letter-spacing: 0.3px;
         line-height: 72px;
+
     }
     .bmi-count{
         flex-direction: column;
         width: 1280px;
-        height: 1500px;
+        height: 2500px;
+
     }
     .bmi-box-1{
-        width: 1280px;
-        height: 600px;
-        border: 1px solid white;
+        margin-top: -600px;
+    }
+    .bmi-box-1, .a{
+        width: 1200px;
+        height: 700px;
+        margin-left: 30px;
+    }
+    .bmi-text{
+        font-size: 56px;
+        font-weight: 700;
+        width: 800px;
+        padding-bottom: 80px;
+    }
+    table, td, th{
+        border: 4px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+    }
+    table{
+        width: 1000px;
+        height: 700px;
+    }
+    th{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    td{
+        font-size: 46px;
+        font-weight: 400;
+    }
+    .bmi-box-2{
+        margin-top: 300px;
+    }
+    .bmi-box-2, .b{
+        width: 1200px;
+        height: 700px;
+        margin-left: 60px;
+    }
+    .bmi-title{
+        font-size: 56px;
+        font-weight: 700;
+        width: 600px;
+        padding-bottom: 60px;
+    }
+    .bmi-description{
+        width: 850px;
+        height: 200px;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 72px;
+    }
+    .grid-bmi{
+        width: 1100px;
+        height: 650px;
+        margin-top: 120px;
+    }
+    .grid-bmi-2{
+        gap: 40px;
+    }
+    .grid-box{
+        width: 480px;
+        height: 100px;
+        padding: 12px 40px 12px 40px;
+        margin-left: -60px;
+        border-radius: 16px;
+    }
+    .grid-box-2{
+        width: 1050px;
+        height: 100px;
+        padding: 12px 40px 12px 40px;
+        margin-left: -60px;
+        border-radius: 16px;
+        margin-top: 40px;
+    }
+    ::placeholder{
+        font-size: 52px;
+    }
+    .bmi-btn{
+        margin-top: 100px;
+        margin-left: -60px;
+        height: 200px;
+        width: 750px;
+        font-size: 72px;
+        font-weight: 600;
     }
 
 
